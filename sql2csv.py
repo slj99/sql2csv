@@ -15,7 +15,7 @@ def write_csv(table_name):
         writer.writerows(data)
 
 
-with open('20230827-114512-1-v1.4.6.sql', 'r', encoding='utf-8') as f:
+with open('*******sql_file_path*********.sql', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
     for line in lines:

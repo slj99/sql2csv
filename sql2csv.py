@@ -32,3 +32,4 @@ with open('*******sql_file_path*********.sql', 'r', encoding='utf-8') as f:
             values = re.search(r'\((.*)\)', line).group(1)
             row = values.split(',')
             data.append(row)
+    write_csv(table_name)
